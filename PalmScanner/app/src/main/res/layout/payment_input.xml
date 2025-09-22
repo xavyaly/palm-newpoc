@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter amount"
+        android:textSize="36dp" />
+    <EditText
+        android:id="@+id/txt_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="42dp"
+        android:hint="0.0"
+        android:layout_marginBottom="16dp"
+        android:inputType="numberDecimal"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="36dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/btn_payment_scan"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan you palm under 15 seconds"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/txt_payment_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#fe5623"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>

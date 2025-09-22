@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- maxHeight="1024dp" -->
+    <com.vritaventures.palmscanner.common.opengl.GLFrameSurface
+        android:id="@+id/gl_rgb"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_weight="1"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="5dp" />
+
+    <com.vritaventures.palmscanner.common.opengl.GLFrameSurface
+        android:id="@+id/gl_ir"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
